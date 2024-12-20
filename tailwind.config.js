@@ -49,7 +49,12 @@ export default {
       24: "24px",
       full: "999px",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        "border-bottom": "0 4px 0 0 rgb(245, 116, 99)", // rgba == orange 500
+        border: "0 0 0 3px rgba(0,0,0, 1), 0 0 0 4px rgba(255, 255, 255, 1)",
+      },
+    },
   },
   plugins: [],
 };
