@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .text-preset-1 {
+    @apply text-3xl font-extrabold leading-[110%] tracking-[-1px] md:text-6xl md:leading-[110%];
+  }
+
+  .text-preset-2 {
+    @apply text-2xl font-bold leading-[110%] tracking-[-1px] md:text-4xl md:leading-[110%];
+  }
+
+  .text-preset-3 {
+    @apply text-[22px] font-bold leading-[110%] tracking-[-1px] md:text-3xl md:leading-[110%];
+  }
+
+  .text-preset-4 {
+    @apply text-xl font-medium leading-[120%] tracking-[-0.5px] md:text-2xl md:leading-[120%];
+  }
+
+  .text-preset-5 {
+    @apply text-xl font-medium leading-[110%] tracking-[-0.5px];
+  }
+
+  .text-preset-5.extrabold {
+    @apply font-extrabold tracking-[-0.3px];
+  }
+
+  .text-preset-6 {
+    @apply text-sm font-medium leading-[120%] tracking-[0px] md:text-lg md:leading-[120%];
+  }
+
+  .text-preset-7 {
+    @apply text-xs font-normal leading-[120%] tracking-[-0.2px];
+  }
+}
